@@ -1,0 +1,4 @@
+FROM openjdk:8
+EXPOSE 8080
+ADD traget/pincode1.jar pincode1.jar
+ENTRY POINT["java","-jar","/pincode1.jar"]
